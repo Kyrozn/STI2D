@@ -19,7 +19,7 @@
       "item": "minecraft:lapis_block"
     },
     "4": {
-      "item": "mod_sti:deleted_mod_element"
+      "item": "mod_sti:lame_originel"
     },
     "5": {
       "item": "minecraft:lapis_block"
@@ -35,7 +35,7 @@
     }
   },
   "result": {
-    "item": "mod_sti:deleted_mod_element",
+    "item": "mod_sti:lame_health_boost",
     "count": 1
   }
 }

@@ -1,11 +1,27 @@
 
 package net.mcreator.modsti.item;
 
-import net.minecraft.world.entity.ai.attributes.Attribute;
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.UseAnim;
+import net.minecraft.world.item.ProjectileWeaponItem;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.entity.projectile.AbstractArrow;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.InteractionResultHolder;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.server.level.ServerPlayer;
+
+import net.mcreator.modsti.entity.ArcCharbonChaudEntity;
 
 public class ArcCharbonChaudItem extends Item {
-
 	public ArcCharbonChaudItem() {
 		super(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(1000));
 		setRegistryName("arc_charbon_chaud");
@@ -41,7 +57,6 @@ public class ArcCharbonChaudItem extends Item {
 			double z = entity.getZ();
 			if (true) {
 				ItemStack stack = ProjectileWeaponItem.getHeldProjectile(entity, e -> e.getItem() == Items.ARROW);
-
 				if (stack == ItemStack.EMPTY) {
 					for (int i = 0; i < entity.getInventory().items.size(); i++) {
 						ItemStack teststack = entity.getInventory().items.get(i);
@@ -51,13 +66,9 @@ public class ArcCharbonChaudItem extends Item {
 						}
 					}
 				}
-
 				if (entity.getAbilities().instabuild || stack != ItemStack.EMPTY) {
-
 					ArcCharbonChaudEntity entityarrow = ArcCharbonChaudEntity.shoot(world, entity, world.getRandom(), 5f, 5, 5);
-
 					itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
-
 					if (entity.getAbilities().instabuild) {
 						entityarrow.pickup = AbstractArrow.Pickup.CREATIVE_ONLY;
 					} else {
@@ -74,10 +85,8 @@ public class ArcCharbonChaudItem extends Item {
 								entity.getInventory().removeItem(stack);
 						}
 					}
-
 				}
 			}
 		}
 	}
-
 }
