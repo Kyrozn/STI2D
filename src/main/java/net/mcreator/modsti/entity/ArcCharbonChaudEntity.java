@@ -110,7 +110,7 @@ public class ArcCharbonChaudEntity extends AbstractArrow implements ItemSupplier
 		entityarrow.shoot(d1, d0 - entityarrow.getY() + Math.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 5f * 2, 12.0F);
 		entityarrow.setSilent(true);
 		entityarrow.setBaseDamage(5);
-		entityarrow.setKnockback(5);
+		entityarrow.setKnockback(2);
 		entityarrow.setCritArrow(true);
 		entityarrow.setSecondsOnFire(100);
 		entity.level.addFreshEntity(entityarrow);
