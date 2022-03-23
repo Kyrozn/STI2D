@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Blocks.LAPIS_BLOCK"
       },
       {
-        "value": "CUSTOM:LingotCharbonChaud"
+        "value": "Blocks.DIAMOND_BLOCK"
       },
       {
-        "value": ""
+        "value": "Blocks.LAPIS_BLOCK"
       },
       {
-        "value": ""
+        "value": "Blocks.LAPIS_BLOCK"
       },
       {
-        "value": "CUSTOM:LingotCharbonChaud"
+        "value": "CUSTOM:LameOriginel"
       },
       {
-        "value": ""
+        "value": "Blocks.LAPIS_BLOCK"
       },
       {
-        "value": ""
+        "value": "Blocks.LAPIS_BLOCK"
       },
       {
-        "value": "Items.STICK"
+        "value": "Blocks.LAPIS_BLOCK"
       },
       {
-        "value": ""
+        "value": "Blocks.LAPIS_BLOCK"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:LameOriginel"
+      "value": "CUSTOM:LameHealthBoost"
     },
-    "name": "craft_lame",
+    "name": "craftlame_health_boost",
     "namespace": "mod"
   }
 }

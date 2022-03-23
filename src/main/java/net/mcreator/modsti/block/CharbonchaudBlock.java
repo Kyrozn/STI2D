@@ -24,6 +24,7 @@ import net.minecraft.client.Minecraft;
 
 import net.mcreator.modsti.procedures.CharbonchaudQuandLentiteEntreEnCollisionAvecLeBlocProcedure;
 import net.mcreator.modsti.procedures.CharbonchaudQuandLeBlocEstDetruitParUnJoueurProcedure;
+import net.mcreator.modsti.init.ModStiModBlocks;
 
 import java.util.Random;
 import java.util.List;
@@ -53,7 +54,7 @@ public class CharbonchaudBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
+		return Collections.singletonList(new ItemStack(ModStiModBlocks.CHARBONCHAUD));
 	}
 
 	@OnlyIn(Dist.CLIENT)
@@ -64,13 +65,13 @@ public class CharbonchaudBlock extends Block {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-		for (int l = 0; l < 2; ++l) {
+		for (int l = 0; l < 1; ++l) {
 			double x0 = x + random.nextFloat();
 			double y0 = y + random.nextFloat();
 			double z0 = z + random.nextFloat();
-			double dx = (random.nextFloat() - 0.5D) * 0.5D;
-			double dy = (random.nextFloat() - 0.5D) * 0.5D;
-			double dz = (random.nextFloat() - 0.5D) * 0.5D;
+			double dx = (random.nextFloat() - 0.5D) * 0.25D;
+			double dy = (random.nextFloat() - 0.5D) * 0.25D;
+			double dz = (random.nextFloat() - 0.5D) * 0.25D;
 			world.addParticle(ParticleTypes.LAVA, x0, y0, z0, dx, dy, dz);
 		}
 	}

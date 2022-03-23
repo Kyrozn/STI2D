@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Items.GHAST_TEAR"
       },
       {
-        "value": "CUSTOM:LingotCharbonChaud"
+        "value": "Items.GHAST_TEAR"
       },
       {
-        "value": ""
+        "value": "Items.GHAST_TEAR"
       },
       {
-        "value": ""
+        "value": "Items.GHAST_TEAR"
       },
       {
-        "value": "CUSTOM:LingotCharbonChaud"
+        "value": "CUSTOM:LameOriginel"
       },
       {
-        "value": ""
+        "value": "Items.GHAST_TEAR"
       },
       {
-        "value": ""
+        "value": "Items.GHAST_TEAR"
       },
       {
-        "value": "Items.STICK"
+        "value": "Items.GHAST_TEAR"
       },
       {
-        "value": ""
+        "value": "Items.GHAST_TEAR"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:LameOriginel"
+      "value": "CUSTOM:LameRegeneration"
     },
-    "name": "craft_lame",
+    "name": "craftlame_regeneration",
     "namespace": "mod"
   }
 }
