@@ -88,7 +88,7 @@
       "name": "ArcCharbonChaudLorsqueLeProjectileToucheUneEntiteVivante",
       "type": "procedure",
       "sortid": 8,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "arc_charbon_chaud_lorsque_le_projectile_touche_une_entite_vivante",
       "metadata": {
@@ -99,7 +99,7 @@
       "name": "ProjectileToucheEntiteVivanteMetLeFeu",
       "type": "procedure",
       "sortid": 9,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "projectile_touche_entite_vivante_met_le_feu",
       "metadata": {
@@ -115,7 +115,7 @@
       "name": "ArcCharbonChaud",
       "type": "rangeditem",
       "sortid": 8,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "arc_charbon_chaud"
     },
@@ -123,7 +123,7 @@
       "name": "LameSpeedQuandLoutilEstDansLinventaireParTick",
       "type": "procedure",
       "sortid": 18,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "lame_speed_quand_loutil_est_dans_linventaire_par_tick",
       "metadata": {
@@ -139,7 +139,7 @@
       "name": "LameHealthBoostQuandLoutilEstDansLinventaireParTick",
       "type": "procedure",
       "sortid": 13,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "lame_health_boost_quand_loutil_est_dans_linventaire_par_tick",
       "metadata": {
@@ -195,7 +195,7 @@
       "name": "LameOriginel",
       "type": "tool",
       "sortid": 24,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "lame_originel"
     },
@@ -211,7 +211,7 @@
       "name": "LameRegenerationQuandLoutilEstDansLinventaireParTick",
       "type": "procedure",
       "sortid": 11,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "lame_regeneration_quand_loutil_est_dans_linventaire_par_tick",
       "metadata": {
@@ -235,7 +235,7 @@
       "name": "LameSpeed",
       "type": "tool",
       "sortid": 9,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "lame_speed"
     },
@@ -243,7 +243,7 @@
       "name": "LameRegeneration",
       "type": "tool",
       "sortid": 10,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "lame_regeneration"
     },
@@ -275,7 +275,7 @@
       "name": "LameResistanceQuandLoutilEstDansLinventaireParTick",
       "type": "procedure",
       "sortid": 15,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "lame_resistance_quand_loutil_est_dans_linventaire_par_tick",
       "metadata": {
@@ -291,7 +291,7 @@
       "name": "LameForceQuandLoutilEstDansLinventaireParTick",
       "type": "procedure",
       "sortid": 17,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "lame_force_quand_loutil_est_dans_linventaire_par_tick",
       "metadata": {
