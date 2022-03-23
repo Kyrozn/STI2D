@@ -107,6 +107,41 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lingot_charbon_chaud"
+    },
+    {
+      "name": "ArcCharbonChaudLorsqueLeProjectileToucheUneEntiteVivante",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arc_charbon_chaud_lorsque_le_projectile_touche_une_entite_vivante",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ArcCharbonChaud",
+      "type": "rangeditem",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arc_charbon_chaud"
+    },
+    {
+      "name": "ProjectileToucheEntiteVivanteMetLeFeu",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "projectile_touche_entite_vivante_met_le_feu",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -115,6 +150,7 @@
     "en_us": {
       "item.mod_sti.lame": "Lame",
       "item.mod_sti.lingot_charbon_chaud": "Lingot de Charbon Chaud",
+      "item.mod_sti.arc_charbon_chaud": "Arc Charbon Chaud",
       "block.mod_sti.charbonchaud": "Charbonchaud"
     }
   },

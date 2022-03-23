@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.modsti.item.LingotCharbonChaudItem;
 import net.mcreator.modsti.item.LameItem;
+import net.mcreator.modsti.item.ArcCharbonChaudItem;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -25,6 +26,7 @@ public class ModStiModItems {
 	public static final Item LAME = register(new LameItem());
 	public static final Item CHARBONCHAUD = register(ModStiModBlocks.CHARBONCHAUD, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item LINGOT_CHARBON_CHAUD = register(new LingotCharbonChaudItem());
+	public static final Item ARC_CHARBON_CHAUD = register(new ArcCharbonChaudItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
