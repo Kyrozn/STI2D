@@ -243,7 +243,7 @@
       "name": "LameRegeneration",
       "type": "tool",
       "sortid": 10,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "lame_regeneration"
     },
@@ -267,7 +267,7 @@
       "name": "LameHealthBoost",
       "type": "tool",
       "sortid": 12,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "lame_health_boost"
     },
@@ -309,6 +309,7 @@
   "language_map": {
     "en_us": {
       "item.mod_sti.lame_resistance": "Lame de Résistance",
+      "item.mod_sti.lame_regeneration": "Lame de Régénération",
       "item.mod_sti.lame": "Lame",
       "item.mod_sti.lingot_charbon_chaud": "Lingot de Charbon Chaud",
       "item.mod_sti.lame_force": "Lame de Force",

@@ -1,10 +1,8 @@
 {
   "item.mod_sti.lame_resistance": "Lame de Résistance",
   "item.mod_sti.lame_regeneration": "Lame de Régénération",
-  "item.mod_sti.lame_speed": "Lame de Speed",
+  "item.mod_sti.lame": "Lame",
   "item.mod_sti.lingot_charbon_chaud": "Lingot de Charbon Chaud",
   "item.mod_sti.lame_force": "Lame de Force",
-  "item.mod_sti.lame_health_boost": "Lame de Boost de Vie",
-  "block.mod_sti.charbonchaud": "Charbonchaud",
-  "item.mod_sti.lame_originel": "Lame de Originel"
+  "block.mod_sti.charbonchaud": "Charbonchaud"
 }
