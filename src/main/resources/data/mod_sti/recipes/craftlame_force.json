@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "mod_sti:lame_originel"
+      "item": "mod_sti:deleted_mod_element"
     },
     {
       "item": "minecraft:emerald_block"
     }
   ],
   "result": {
-    "item": "mod_sti:lame_force",
+    "item": "mod_sti:deleted_mod_element",
     "count": 1
   }
 }
