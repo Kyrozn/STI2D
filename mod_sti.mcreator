@@ -107,6 +107,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lingot_charbon_chaud"
+    },
+    {
+      "name": "CraftLame",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_lame"
     }
   ],
   "variable_elements": [],

@@ -53,6 +53,12 @@ public class LameItem extends SwordItem {
 	}
 
 	@Override
+	public void onCraftedBy(ItemStack itemstack, Level world, Player entity) {
+		super.onCraftedBy(itemstack, world, entity);
+		LameQuandLoutilEstDansLinventaireParTickProcedure.execute(entity);
+	}
+
+	@Override
 	public boolean isFoil(ItemStack itemstack) {
 		return true;
 	}

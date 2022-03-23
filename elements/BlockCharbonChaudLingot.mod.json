@@ -12,7 +12,7 @@
       "value": "CUSTOM:Charbonchaud"
     },
     "blastingReturnStack": {
-      "value": "Items.IRON_INGOT"
+      "value": "CUSTOM:LingotCharbonChaud"
     },
     "name": "lingot_de_charbon_chaud",
     "namespace": "mod"
