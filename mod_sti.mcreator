@@ -291,7 +291,7 @@
       "name": "LameForceQuandLoutilEstDansLinventaireParTick",
       "type": "procedure",
       "sortid": 17,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "lame_force_quand_loutil_est_dans_linventaire_par_tick",
       "metadata": {
