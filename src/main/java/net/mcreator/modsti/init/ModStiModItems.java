@@ -20,7 +20,6 @@ import net.mcreator.modsti.item.LameRegenerationItem;
 import net.mcreator.modsti.item.LameOriginelItem;
 import net.mcreator.modsti.item.LameHealthBoostItem;
 import net.mcreator.modsti.item.LameForceItem;
-import net.mcreator.modsti.item.ArcCharbonChaudItem;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -30,7 +29,6 @@ public class ModStiModItems {
 	private static final List<Item> REGISTRY = new ArrayList<>();
 	public static final Item CHARBONCHAUD = register(ModStiModBlocks.CHARBONCHAUD, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item LINGOT_CHARBON_CHAUD = register(new LingotCharbonChaudItem());
-	public static final Item ARC_CHARBON_CHAUD = register(new ArcCharbonChaudItem());
 	public static final Item LAME_SPEED = register(new LameSpeedItem());
 	public static final Item LAME_REGENERATION = register(new LameRegenerationItem());
 	public static final Item LAME_HEALTH_BOOST = register(new LameHealthBoostItem());
