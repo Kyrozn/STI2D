@@ -3,20 +3,22 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "lame_nirishin",
+    "texture": "lame_healthboost",
     "customModelName": "Normal",
-    "name": "Lame",
-    "specialInfo": [],
+    "name": "Lame de Boost de Vie",
+    "specialInfo": [
+      "Donne un effet de de Boost de Vie quand elle est dans l'inventaire"
+    ],
     "creativeTab": {
       "value": "COMBAT"
     },
     "toolType": "Sword",
     "harvestLevel": 0,
     "efficiency": 2.0,
-    "attackSpeed": 1.0,
+    "attackSpeed": 2.0,
     "enchantability": 0,
-    "damageVsEntity": 4.0,
-    "usageCount": 100,
+    "damageVsEntity": 3.0,
+    "usageCount": 1000,
     "blocksAffected": [],
     "hasGlow": true,
     "repairItems": [
@@ -27,8 +29,8 @@
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "onRightClickedInAir": {
-      "name": "LameQuandLoutilEstDansLinventaireParTick"
+    "onItemInInventoryTick": {
+      "name": "LameHealthBoostQuandLoutilEstDansLinventaireParTick"
     }
   }
 }

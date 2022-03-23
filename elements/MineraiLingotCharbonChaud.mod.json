@@ -2,19 +2,19 @@
   "_fv": 24,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Blasting",
+    "recipeType": "Smelting",
     "xpReward": 1.0,
-    "cookingTime": 100,
+    "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
-    "blastingInputStack": {
+    "smeltingInputStack": {
       "value": "CUSTOM:Charbonchaud"
     },
-    "blastingReturnStack": {
+    "smeltingReturnStack": {
       "value": "CUSTOM:LingotCharbonChaud"
     },
-    "name": "lingot_de_charbon_chaud",
+    "name": "minerai_lingot_charbon_chaud",
     "namespace": "mod"
   }
 }

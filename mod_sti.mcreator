@@ -1,30 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "Lame",
-      "type": "tool",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lame"
-    },
-    {
-      "name": "LameQuandLoutilEstDansLinventaireParTick",
-      "type": "procedure",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lame_quand_loutil_est_dans_linventaire_par_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "Charbonchaud",
       "type": "block",
       "sortid": 3,
@@ -120,14 +96,6 @@
       }
     },
     {
-      "name": "ArcCharbonChaud",
-      "type": "rangeditem",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "arc_charbon_chaud"
-    },
-    {
       "name": "ProjectileToucheEntiteVivanteMetLeFeu",
       "type": "procedure",
       "sortid": 9,
@@ -142,15 +110,208 @@
           }
         ]
       }
+    },
+    {
+      "name": "ArcCharbonChaud",
+      "type": "rangeditem",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arc_charbon_chaud"
+    },
+    {
+      "name": "LameSpeedQuandLoutilEstDansLinventaireParTick",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lame_speed_quand_loutil_est_dans_linventaire_par_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LameHealthBoostQuandLoutilEstDansLinventaireParTick",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lame_health_boost_quand_loutil_est_dans_linventaire_par_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LameResistance",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lame_resistance"
+    },
+    {
+      "name": "CraftlameForce",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftlame_force"
+    },
+    {
+      "name": "CraftlameHealthBoost",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftlame_health_boost"
+    },
+    {
+      "name": "CraftlameSpeed",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftlame_speed"
+    },
+    {
+      "name": "LameForce",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lame_force"
+    },
+    {
+      "name": "LameOriginel",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lame_originel"
+    },
+    {
+      "name": "CraftLame",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_lame"
+    },
+    {
+      "name": "LameRegenerationQuandLoutilEstDansLinventaireParTick",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lame_regeneration_quand_loutil_est_dans_linventaire_par_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CraftlameRegeneration",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftlame_regeneration"
+    },
+    {
+      "name": "LameSpeed",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lame_speed"
+    },
+    {
+      "name": "LameRegeneration",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lame_regeneration"
+    },
+    {
+      "name": "CraftlameResistance",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftlame_resistance"
+    },
+    {
+      "name": "MineraiLingotCharbonChaud",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minerai_lingot_charbon_chaud"
+    },
+    {
+      "name": "LameHealthBoost",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lame_health_boost"
+    },
+    {
+      "name": "LameResistanceQuandLoutilEstDansLinventaireParTick",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lame_resistance_quand_loutil_est_dans_linventaire_par_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LameForceQuandLoutilEstDansLinventaireParTick",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lame_force_quand_loutil_est_dans_linventaire_par_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.mod_sti.lame_resistance": "Lame de Résistance",
       "item.mod_sti.lame": "Lame",
       "item.mod_sti.lingot_charbon_chaud": "Lingot de Charbon Chaud",
-      "item.mod_sti.arc_charbon_chaud": "Arc Charbon Chaud",
+      "item.mod_sti.lame_force": "Lame de Force",
       "block.mod_sti.charbonchaud": "Charbonchaud"
     }
   },

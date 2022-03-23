@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "mod_sti:lingot_charbon_chaud"
+    },
+    "1": {
+      "item": "mod_sti:lingot_charbon_chaud"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mod_sti:lame_originel",
+    "count": 1
+  }
+}

@@ -43,7 +43,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Charbonchaud"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -102,8 +102,8 @@
       "value": "LAVA"
     },
     "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 2,
+    "particleSpawningRadious": 0.25,
+    "particleAmount": 1,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
