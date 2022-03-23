@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mod_sti:blocks/luminus_ore",
+    "up": "mod_sti:blocks/luminus_ore",
+    "north": "mod_sti:blocks/luminus_ore",
+    "east": "mod_sti:blocks/luminus_ore",
+    "south": "mod_sti:blocks/luminus_ore",
+    "west": "mod_sti:blocks/luminus_ore",
+    "particle": "mod_sti:blocks/luminus_ore"
+  }
+}

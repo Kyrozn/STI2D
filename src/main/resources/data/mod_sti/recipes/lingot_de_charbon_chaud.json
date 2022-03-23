@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "mod_sti:charbonchaud"
+  },
+  "result": {
+    "item": "minecraft:iron_ingot"
+  }
+}
