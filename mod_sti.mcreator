@@ -302,6 +302,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "Craftarccharbonchaud",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftarccharbonchaud"
     }
   ],
   "variable_elements": [],
