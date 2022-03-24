@@ -67,7 +67,7 @@ public class ArcCharbonChaudItem extends Item {
 					}
 				}
 				if (entity.getAbilities().instabuild || stack != ItemStack.EMPTY) {
-					ArcCharbonChaudEntity entityarrow = ArcCharbonChaudEntity.shoot(world, entity, world.getRandom(), 5f, 5, 2);
+					ArcCharbonChaudEntity entityarrow = ArcCharbonChaudEntity.shoot(world, entity, world.getRandom(), 3f, 5, 2);
 					itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 					if (entity.getAbilities().instabuild) {
 						entityarrow.pickup = AbstractArrow.Pickup.CREATIVE_ONLY;
