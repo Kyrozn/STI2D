@@ -29,10 +29,16 @@
     "bulletParticles": true,
     "bulletIgnitesFire": true,
     "bulletItemTexture": {
-      "value": "Items.ARROW"
+      "value": "Blocks.CANDLE#7"
     },
     "bulletModel": "Default",
     "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "ProjectileToucheEntiteVivanteMetLeFeu"
+    },
+    "onBulletHitsPlayer": {
+      "name": "ProjectileToucheEntiteVivanteMetLeFeu"
+    },
     "onBulletHitsEntity": {
       "name": "ProjectileToucheEntiteVivanteMetLeFeu"
     }

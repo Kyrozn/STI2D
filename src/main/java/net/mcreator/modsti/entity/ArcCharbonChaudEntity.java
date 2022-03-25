@@ -7,6 +7,7 @@ import net.minecraftforge.fmllegacy.network.FMLPlayMessages;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
@@ -51,12 +52,25 @@ public class ArcCharbonChaudEntity extends AbstractArrow implements ItemSupplier
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public ItemStack getItem() {
-		return new ItemStack(Items.ARROW);
+		return new ItemStack(Blocks.PINK_CANDLE);
 	}
 
 	@Override
 	protected ItemStack getPickupItem() {
 		return new ItemStack(Items.ARROW);
+	}
+
+	@Override
+	public void playerTouch(Player entity) {
+		super.playerTouch(entity);
+		Entity sourceentity = this.getOwner();
+		double x = this.getX();
+		double y = this.getY();
+		double z = this.getZ();
+		Level world = this.level;
+		Entity imediatesourceentity = this;
+
+		ProjectileToucheEntiteVivanteMetLeFeuProcedure.execute(entity);
 	}
 
 	@Override
@@ -83,6 +97,8 @@ public class ArcCharbonChaudEntity extends AbstractArrow implements ItemSupplier
 		Entity entity = this.getOwner();
 		Entity imediatesourceentity = this;
 		if (this.inGround) {
+
+			ProjectileToucheEntiteVivanteMetLeFeuProcedure.execute(entity);
 			this.discard();
 		}
 	}
