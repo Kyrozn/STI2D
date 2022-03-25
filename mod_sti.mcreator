@@ -310,6 +310,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "craftarccharbonchaud"
+    },
+    {
+      "name": "EnchantArcCharbonChaud",
+      "type": "enchantment",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant_arc_charbon_chaud"
     }
   ],
   "variable_elements": [],
@@ -323,6 +331,7 @@
       "item.mod_sti.lingot_charbon_chaud": "Lingot de Charbon Chaud",
       "item.mod_sti.lame_force": "Lame de Force",
       "item.mod_sti.arc_charbon_chaud": "Arc Charbon Chaud",
+      "enchantment.mod_sti.enchant_arc_charbon_chaud": "Flèche explosive",
       "item.mod_sti.lame_health_boost": "Lame de Boost de Vie",
       "block.mod_sti.charbonchaud": "Charbonchaud",
       "item.mod_sti.lame_originel": "Lame de Originel"
