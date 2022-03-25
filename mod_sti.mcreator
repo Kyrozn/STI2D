@@ -304,14 +304,6 @@
       }
     },
     {
-      "name": "Craftarccharbonchaud",
-      "type": "recipe",
-      "sortid": 26,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "craftarccharbonchaud"
-    },
-    {
       "name": "EnchantArcCharbonChaud",
       "type": "enchantment",
       "sortid": 27,

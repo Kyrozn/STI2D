@@ -14,7 +14,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.modsti.procedures.LameResistanceQuandLoutilEstDansLinventaireParTickProcedure;
+import net.mcreator.modsti.procedures.LameForceQuandLoutilEstDansLinventaireParTickProcedure;
 
 import java.util.List;
 
@@ -57,7 +57,7 @@ public class LameForceItem extends SwordItem {
 	@Override
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
-		LameResistanceQuandLoutilEstDansLinventaireParTickProcedure.execute(entity);
+		LameForceQuandLoutilEstDansLinventaireParTickProcedure.execute(entity);
 	}
 
 	@Override
