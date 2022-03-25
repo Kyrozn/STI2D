@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "mod_sti:items/arc_en_charbon_chaud_texture"
+    "layer0": "mod_sti:items/arc_mod"
   },
   "display": {
     "thirdperson_righthand": {

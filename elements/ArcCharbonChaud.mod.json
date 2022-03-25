@@ -3,7 +3,7 @@
   "_type": "rangeditem",
   "definition": {
     "renderType": 0,
-    "texture": "arc_en_charbon_chaud_texture",
+    "texture": "arc_mod",
     "customModelName": "Normal",
     "name": "Arc Charbon Chaud",
     "specialInfo": [],
@@ -23,9 +23,9 @@
     "animation": "bow",
     "enableMeleeDamage": false,
     "damageVsEntity": 5.0,
-    "bulletPower": 5.0,
-    "bulletDamage": 5.0,
-    "bulletKnockback": 5,
+    "bulletPower": 2.0,
+    "bulletDamage": 1.0,
+    "bulletKnockback": 1,
     "bulletParticles": true,
     "bulletIgnitesFire": true,
     "bulletItemTexture": {
