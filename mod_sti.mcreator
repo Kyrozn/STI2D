@@ -6,7 +6,8 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "charbonchaud"
+      "registry_name": "charbonchaud",
+      "path": "~/BLOCK_LINGOT8_C.C"
     },
     {
       "name": "CharbonchaudQuandLentiteEntreEnCollisionAvecLeBloc",
@@ -22,7 +23,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/BLOCK_LINGOT8_C.C"
     },
     {
       "name": "CharbonchaudQuandLeBlocEstDetruitParUnJoueur",
@@ -50,7 +52,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/BLOCK_LINGOT8_C.C"
     },
     {
       "name": "BlockCharbonChaudLingot",
@@ -58,7 +61,8 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "block_charbon_chaud_lingot"
+      "registry_name": "block_charbon_chaud_lingot",
+      "path": "~/BLOCK_LINGOT8_C.C"
     },
     {
       "name": "LingotCharbonChaudQuandLitemEstDansLinventaireParTick",
@@ -74,7 +78,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/BLOCK_LINGOT8_C.C"
     },
     {
       "name": "LingotCharbonChaud",
@@ -82,7 +87,8 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lingot_charbon_chaud"
+      "registry_name": "lingot_charbon_chaud",
+      "path": "~/BLOCK_LINGOT8_C.C"
     },
     {
       "name": "ArcCharbonChaudLorsqueLeProjectileToucheUneEntiteVivante",
@@ -93,7 +99,8 @@
       "registry_name": "arc_charbon_chaud_lorsque_le_projectile_touche_une_entite_vivante",
       "metadata": {
         "dependencies": []
-      }
+      },
+      "path": "~/ARC_C.C"
     },
     {
       "name": "ProjectileToucheEntiteVivanteMetLeFeu",
@@ -109,7 +116,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/ARC_C.C"
     },
     {
       "name": "ArcCharbonChaud",
@@ -117,7 +125,8 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "arc_charbon_chaud"
+      "registry_name": "arc_charbon_chaud",
+      "path": "~/ARC_C.C"
     },
     {
       "name": "LameSpeedQuandLoutilEstDansLinventaireParTick",
@@ -133,7 +142,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/LAME_NISHIRIN"
     },
     {
       "name": "LameHealthBoostQuandLoutilEstDansLinventaireParTick",
@@ -149,7 +159,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/LAME_NISHIRIN"
     },
     {
       "name": "LameResistance",
@@ -157,7 +168,8 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lame_resistance"
+      "registry_name": "lame_resistance",
+      "path": "~/LAME_NISHIRIN"
     },
     {
       "name": "CraftlameForce",
@@ -165,7 +177,8 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "craftlame_force"
+      "registry_name": "craftlame_force",
+      "path": "~/LAME_NISHIRIN"
     },
     {
       "name": "CraftlameHealthBoost",
@@ -173,7 +186,8 @@
       "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "craftlame_health_boost"
+      "registry_name": "craftlame_health_boost",
+      "path": "~/LAME_NISHIRIN"
     },
     {
       "name": "CraftlameSpeed",
@@ -181,7 +195,8 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "craftlame_speed"
+      "registry_name": "craftlame_speed",
+      "path": "~/LAME_NISHIRIN"
     },
     {
       "name": "LameForce",
@@ -189,7 +204,8 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lame_force"
+      "registry_name": "lame_force",
+      "path": "~/LAME_NISHIRIN"
     },
     {
       "name": "LameOriginel",
@@ -197,7 +213,8 @@
       "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lame_originel"
+      "registry_name": "lame_originel",
+      "path": "~/LAME_NISHIRIN"
     },
     {
       "name": "CraftLame",
@@ -205,7 +222,8 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "craft_lame"
+      "registry_name": "craft_lame",
+      "path": "~/LAME_NISHIRIN"
     },
     {
       "name": "LameRegenerationQuandLoutilEstDansLinventaireParTick",
@@ -221,7 +239,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/LAME_NISHIRIN"
     },
     {
       "name": "CraftlameRegeneration",
@@ -229,7 +248,8 @@
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "craftlame_regeneration"
+      "registry_name": "craftlame_regeneration",
+      "path": "~/LAME_NISHIRIN"
     },
     {
       "name": "LameSpeed",
@@ -237,7 +257,8 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lame_speed"
+      "registry_name": "lame_speed",
+      "path": "~/LAME_NISHIRIN"
     },
     {
       "name": "LameRegeneration",
@@ -245,7 +266,8 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lame_regeneration"
+      "registry_name": "lame_regeneration",
+      "path": "~/LAME_NISHIRIN"
     },
     {
       "name": "CraftlameResistance",
@@ -253,7 +275,8 @@
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "craftlame_resistance"
+      "registry_name": "craftlame_resistance",
+      "path": "~/LAME_NISHIRIN"
     },
     {
       "name": "MineraiLingotCharbonChaud",
@@ -261,7 +284,8 @@
       "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "minerai_lingot_charbon_chaud"
+      "registry_name": "minerai_lingot_charbon_chaud",
+      "path": "~/BLOCK_LINGOT8_C.C"
     },
     {
       "name": "LameHealthBoost",
@@ -269,7 +293,8 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lame_health_boost"
+      "registry_name": "lame_health_boost",
+      "path": "~/LAME_NISHIRIN"
     },
     {
       "name": "LameResistanceQuandLoutilEstDansLinventaireParTick",
@@ -285,7 +310,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/LAME_NISHIRIN"
     },
     {
       "name": "LameForceQuandLoutilEstDansLinventaireParTick",
@@ -301,7 +327,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/LAME_NISHIRIN"
     },
     {
       "name": "EnchantArcCharbonChaud",
@@ -309,7 +336,8 @@
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "enchant_arc_charbon_chaud"
+      "registry_name": "enchant_arc_charbon_chaud",
+      "path": "~/ARC_C.C"
     },
     {
       "name": "Enchntflecheexplosive",
@@ -341,7 +369,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/ARC_C.C"
     },
     {
       "name": "ArcCharbonChaudLorsqueLeProjectileToucheUnBloc",
@@ -373,7 +402,58 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/ARC_C.C"
+    },
+    {
+      "name": "HammerSupremeQuandLeBlocEstDetruitAvecLoutil",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer_supreme_quand_le_bloc_est_detruit_avec_loutil",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hammer"
+    },
+    {
+      "name": "HammerSupreme",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer_supreme",
+      "path": "~/Hammer"
+    },
+    {
+      "name": "Huh",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "huh"
     }
   ],
   "variable_elements": [],
@@ -383,19 +463,38 @@
       "item.mod_sti.lame_resistance": "Lame de Résistance",
       "item.mod_sti.lame_regeneration": "Lame de Régénération",
       "item.mod_sti.lame_speed": "Lame de Speed",
+      "item.mod_sti.lame_force": "Lame de Force",
+      "item.mod_sti.huh": "Huh",
+      "item.mod_sti.arc_charbon_chaud": "Arc Charbon Chaud",
+      "item.mod_sti.lame_originel": "Lame de Originel",
+      "item.mod_sti.hammer_supreme": "Hammer Supreme",
       "item.mod_sti.lame": "Lame",
       "item.mod_sti.lingot_charbon_chaud": "Lingot de Charbon Chaud",
-      "item.mod_sti.lame_force": "Lame de Force",
-      "item.mod_sti.arc_charbon_chaud": "Arc Charbon Chaud",
       "enchantment.mod_sti.enchant_arc_charbon_chaud": "Flèche explosive",
       "item.mod_sti.lame_health_boost": "Lame de Boost de Vie",
-      "block.mod_sti.charbonchaud": "Charbonchaud",
-      "item.mod_sti.lame_originel": "Lame de Originel"
+      "block.mod_sti.charbonchaud": "Charbonchaud"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "BLOCK_LINGOT8_C.C",
+        "children": []
+      },
+      {
+        "name": "LAME_NISHIRIN",
+        "children": []
+      },
+      {
+        "name": "ARC_C.C",
+        "children": []
+      },
+      {
+        "name": "Hammer",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "mod_sti",

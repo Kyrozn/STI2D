@@ -20,6 +20,8 @@ import net.mcreator.modsti.item.LameRegenerationItem;
 import net.mcreator.modsti.item.LameOriginelItem;
 import net.mcreator.modsti.item.LameHealthBoostItem;
 import net.mcreator.modsti.item.LameForceItem;
+import net.mcreator.modsti.item.HuhItem;
+import net.mcreator.modsti.item.HammerSupremeItem;
 import net.mcreator.modsti.item.ArcCharbonChaudItem;
 
 import java.util.List;
@@ -37,6 +39,8 @@ public class ModStiModItems {
 	public static final Item LAME_RESISTANCE = register(new LameResistanceItem());
 	public static final Item LAME_FORCE = register(new LameForceItem());
 	public static final Item LAME_ORIGINEL = register(new LameOriginelItem());
+	public static final Item HAMMER_SUPREME = register(new HammerSupremeItem());
+	public static final Item HUH = register(new HuhItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
