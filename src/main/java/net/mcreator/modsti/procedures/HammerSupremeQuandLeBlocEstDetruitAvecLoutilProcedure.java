@@ -1,234 +1,40 @@
 package net.mcreator.modsti.procedures;
 
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.modsti.network.ModStiModVariables;
+
 public class HammerSupremeQuandLeBlocEstDetruitAvecLoutilProcedure {
-	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
-		if (entity == null)
-			return;
-		if (entity.getXRot() > 40 || entity.getXRot() < -40) {
-			if ((world.getBlockState(new BlockPos((int) (x + 15), (int) y, (int) z)))
-					.getMaterial() == net.minecraft.world.level.material.Material.STONE
-					&& !((world.getBlockState(new BlockPos((int) (x + 15), (int) y, (int) z))).getBlock() == Blocks.BEDROCK)) {
+	public static void execute(LevelAccessor world, double x, double y, double z) {
+		ModStiModVariables.Hammer_supremeX = x - 2;
+		ModStiModVariables.Hammer_supremeX = y - 2;
+		ModStiModVariables.Hammer_supremeX = z - 2;
+		for (int index0 = 0; index0 < (int) (2); index0++) {
+			if ((world.getBlockState(new BlockPos((int) ModStiModVariables.Hammer_supremeX, (int) ModStiModVariables.Hammer_supremeY,
+					(int) ModStiModVariables.MapVariables.get(world).Hammer_supremeZ)))
+							.getMaterial() == net.minecraft.world.level.material.Material.STONE) {
 				if (world instanceof Level) {
-					Block.dropResources(world.getBlockState(new BlockPos((int) (x + 15), (int) y, (int) z)), (Level) world,
-							new BlockPos((int) x, (int) y, (int) z));
-					world.destroyBlock(new BlockPos((int) (x + 15), (int) y, (int) z), false);
+					Block.dropResources(
+							world.getBlockState(
+									new BlockPos((int) (ModStiModVariables.Hammer_supremeX + 1), (int) (ModStiModVariables.Hammer_supremeY + 1),
+											(int) (ModStiModVariables.MapVariables.get(world).Hammer_supremeZ + 1))),
+							(Level) world, new BlockPos((int) ModStiModVariables.Hammer_supremeX, (int) ModStiModVariables.Hammer_supremeY,
+									(int) ModStiModVariables.MapVariables.get(world).Hammer_supremeZ));
+					world.destroyBlock(new BlockPos((int) (ModStiModVariables.Hammer_supremeX + 1), (int) (ModStiModVariables.Hammer_supremeY + 1),
+							(int) (ModStiModVariables.MapVariables.get(world).Hammer_supremeZ + 1)), false);
 				}
-			}
-			if ((world.getBlockState(new BlockPos((int) (x - 15), (int) y, (int) z)))
-					.getMaterial() == net.minecraft.world.level.material.Material.STONE
-					&& !((world.getBlockState(new BlockPos((int) (x - 15), (int) y, (int) z))).getBlock() == Blocks.BEDROCK)) {
 				if (world instanceof Level) {
-					Block.dropResources(world.getBlockState(new BlockPos((int) (x - 15), (int) y, (int) z)), (Level) world,
-							new BlockPos((int) x, (int) y, (int) z));
-					world.destroyBlock(new BlockPos((int) (x - 15), (int) y, (int) z), false);
-				}
-			}
-			if ((world.getBlockState(new BlockPos((int) (x + 15), (int) y, (int) (z + 15))))
-					.getMaterial() == net.minecraft.world.level.material.Material.STONE
-					&& !((world.getBlockState(new BlockPos((int) (x + 15), (int) y, (int) (z + 15)))).getBlock() == Blocks.BEDROCK)) {
-				if (world instanceof Level) {
-					Block.dropResources(world.getBlockState(new BlockPos((int) (x + 15), (int) y, (int) (z + 15))), (Level) world,
-							new BlockPos((int) x, (int) y, (int) z));
-					world.destroyBlock(new BlockPos((int) (x + 15), (int) y, (int) (z + 15)), false);
-				}
-			}
-			if ((world.getBlockState(new BlockPos((int) (x + 15), (int) y, (int) (z - 15))))
-					.getMaterial() == net.minecraft.world.level.material.Material.STONE
-					&& !((world.getBlockState(new BlockPos((int) (x + 15), (int) y, (int) (z - 15)))).getBlock() == Blocks.BEDROCK)) {
-				if (world instanceof Level) {
-					Block.dropResources(world.getBlockState(new BlockPos((int) (x + 15), (int) y, (int) (z - 15))), (Level) world,
-							new BlockPos((int) x, (int) y, (int) z));
-					world.destroyBlock(new BlockPos((int) (x + 15), (int) y, (int) (z - 15)), false);
-				}
-			}
-			if ((world.getBlockState(new BlockPos((int) (x - 15), (int) y, (int) (z - 15))))
-					.getMaterial() == net.minecraft.world.level.material.Material.STONE
-					&& !((world.getBlockState(new BlockPos((int) (x - 15), (int) y, (int) (z - 15)))).getBlock() == Blocks.BEDROCK)) {
-				if (world instanceof Level) {
-					Block.dropResources(world.getBlockState(new BlockPos((int) (x - 1), (int) y, (int) (z - 1))), (Level) world,
-							new BlockPos((int) x, (int) y, (int) z));
-					world.destroyBlock(new BlockPos((int) (x - 1), (int) y, (int) (z - 1)), false);
-				}
-			}
-			if ((world.getBlockState(new BlockPos((int) (x - 15), (int) y, (int) (z + 15))))
-					.getMaterial() == net.minecraft.world.level.material.Material.STONE
-					&& !((world.getBlockState(new BlockPos((int) (x - 15), (int) y, (int) (z + 15)))).getBlock() == Blocks.BEDROCK)) {
-				if (world instanceof Level) {
-					Block.dropResources(world.getBlockState(new BlockPos((int) (x - 15), (int) y, (int) (z + 15))), (Level) world,
-							new BlockPos((int) x, (int) y, (int) z));
-					world.destroyBlock(new BlockPos((int) (x - 15), (int) y, (int) (z + 15)), false);
-				}
-			}
-			if ((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z + 15))))
-					.getMaterial() == net.minecraft.world.level.material.Material.STONE
-					&& !((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z + 15)))).getBlock() == Blocks.BEDROCK)) {
-				if (world instanceof Level) {
-					Block.dropResources(world.getBlockState(new BlockPos((int) x, (int) y, (int) (z + 15))), (Level) world,
-							new BlockPos((int) x, (int) y, (int) z));
-					world.destroyBlock(new BlockPos((int) x, (int) y, (int) (z + 15)), false);
-				}
-			}
-			if ((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z - 15))))
-					.getMaterial() == net.minecraft.world.level.material.Material.STONE
-					&& !((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z - 15)))).getBlock() == Blocks.BEDROCK)) {
-				if (world instanceof Level) {
-					Block.dropResources(world.getBlockState(new BlockPos((int) x, (int) y, (int) (z - 15))), (Level) world,
-							new BlockPos((int) x, (int) y, (int) z));
-					world.destroyBlock(new BlockPos((int) x, (int) y, (int) (z - 15)), false);
-				}
-			}
-		} else if ((entity.getDirection()) == Direction.NORTH || (entity.getDirection()) == Direction.SOUTH) {
-			if ((world.getBlockState(new BlockPos((int) (x + 15), (int) y, (int) z)))
-					.getMaterial() == net.minecraft.world.level.material.Material.STONE
-					&& !((world.getBlockState(new BlockPos((int) (x + 15), (int) y, (int) z))).getBlock() == Blocks.BEDROCK)) {
-				if (world instanceof Level) {
-					Block.dropResources(world.getBlockState(new BlockPos((int) (x + 15), (int) y, (int) z)), (Level) world,
-							new BlockPos((int) x, (int) y, (int) z));
-					world.destroyBlock(new BlockPos((int) (x + 15), (int) y, (int) z), false);
-				}
-			}
-			if ((world.getBlockState(new BlockPos((int) (x - 15), (int) y, (int) z)))
-					.getMaterial() == net.minecraft.world.level.material.Material.STONE
-					&& !((world.getBlockState(new BlockPos((int) (x - 15), (int) y, (int) z))).getBlock() == Blocks.BEDROCK)) {
-				if (world instanceof Level) {
-					Block.dropResources(world.getBlockState(new BlockPos((int) (x - 1), (int) y, (int) z)), (Level) world,
-							new BlockPos((int) x, (int) y, (int) z));
-					world.destroyBlock(new BlockPos((int) (x - 1), (int) y, (int) z), false);
-				}
-			}
-			if ((world.getBlockState(new BlockPos((int) (x + 15), (int) (y + 15), (int) z)))
-					.getMaterial() == net.minecraft.world.level.material.Material.STONE
-					&& !((world.getBlockState(new BlockPos((int) (x + 15), (int) (y + 15), (int) z))).getBlock() == Blocks.BEDROCK)) {
-				if (world instanceof Level) {
-					Block.dropResources(world.getBlockState(new BlockPos((int) (x + 15), (int) (y + 15), (int) z)), (Level) world,
-							new BlockPos((int) x, (int) y, (int) z));
-					world.destroyBlock(new BlockPos((int) (x + 15), (int) (y + 15), (int) z), false);
-				}
-			}
-			if ((world.getBlockState(new BlockPos((int) (x + 15), (int) (y - 15), (int) z)))
-					.getMaterial() == net.minecraft.world.level.material.Material.STONE
-					&& !((world.getBlockState(new BlockPos((int) (x + 15), (int) (y - 15), (int) z))).getBlock() == Blocks.BEDROCK)) {
-				if (world instanceof Level) {
-					Block.dropResources(world.getBlockState(new BlockPos((int) (x + 15), (int) (y - 15), (int) z)), (Level) world,
-							new BlockPos((int) x, (int) y, (int) z));
-					world.destroyBlock(new BlockPos((int) (x + 15), (int) (y - 15), (int) z), false);
-				}
-			}
-			if ((world.getBlockState(new BlockPos((int) (x - 15), (int) (y - 15), (int) z)))
-					.getMaterial() == net.minecraft.world.level.material.Material.STONE
-					&& !((world.getBlockState(new BlockPos((int) (x - 15), (int) (y - 15), (int) z))).getBlock() == Blocks.BEDROCK)) {
-				if (world instanceof Level) {
-					Block.dropResources(world.getBlockState(new BlockPos((int) (x - 15), (int) (y - 15), (int) z)), (Level) world,
-							new BlockPos((int) x, (int) y, (int) z));
-					world.destroyBlock(new BlockPos((int) (x - 15), (int) (y - 15), (int) z), false);
-				}
-			}
-			if ((world.getBlockState(new BlockPos((int) (x - 15), (int) (y + 15), (int) z)))
-					.getMaterial() == net.minecraft.world.level.material.Material.STONE
-					&& !((world.getBlockState(new BlockPos((int) (x - 15), (int) (y + 15), (int) z))).getBlock() == Blocks.BEDROCK)) {
-				if (world instanceof Level) {
-					Block.dropResources(world.getBlockState(new BlockPos((int) (x - 15), (int) (y + 15), (int) z)), (Level) world,
-							new BlockPos((int) x, (int) y, (int) z));
-					world.destroyBlock(new BlockPos((int) (x - 15), (int) (y + 15), (int) z), false);
-				}
-			}
-			if ((world.getBlockState(new BlockPos((int) x, (int) (y + 15), (int) z)))
-					.getMaterial() == net.minecraft.world.level.material.Material.STONE
-					&& !((world.getBlockState(new BlockPos((int) x, (int) (y + 15), (int) z))).getBlock() == Blocks.BEDROCK)) {
-				if (world instanceof Level) {
-					Block.dropResources(world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z)), (Level) world,
-							new BlockPos((int) x, (int) y, (int) z));
-					world.destroyBlock(new BlockPos((int) x, (int) (y + 1), (int) z), false);
-				}
-			}
-			if ((world.getBlockState(new BlockPos((int) x, (int) (y - 15), (int) z)))
-					.getMaterial() == net.minecraft.world.level.material.Material.STONE
-					&& !((world.getBlockState(new BlockPos((int) x, (int) (y - 15), (int) z))).getBlock() == Blocks.BEDROCK)) {
-				if (world instanceof Level) {
-					Block.dropResources(world.getBlockState(new BlockPos((int) x, (int) (y - 15), (int) z)), (Level) world,
-							new BlockPos((int) x, (int) y, (int) z));
-					world.destroyBlock(new BlockPos((int) x, (int) (y - 15), (int) z), false);
-				}
-			}
-		} else if ((entity.getDirection()) == Direction.WEST || (entity.getDirection()) == Direction.EAST) {
-			if ((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z + 15))))
-					.getMaterial() == net.minecraft.world.level.material.Material.STONE
-					&& !((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z + 15)))).getBlock() == Blocks.BEDROCK)) {
-				if (world instanceof Level) {
-					Block.dropResources(world.getBlockState(new BlockPos((int) x, (int) y, (int) (z + 15))), (Level) world,
-							new BlockPos((int) x, (int) y, (int) z));
-					world.destroyBlock(new BlockPos((int) x, (int) y, (int) (z + 15)), false);
-				}
-			}
-			if ((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z - 15))))
-					.getMaterial() == net.minecraft.world.level.material.Material.STONE
-					&& !((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z - 15)))).getBlock() == Blocks.BEDROCK)) {
-				if (world instanceof Level) {
-					Block.dropResources(world.getBlockState(new BlockPos((int) x, (int) y, (int) (z - 15))), (Level) world,
-							new BlockPos((int) x, (int) y, (int) z));
-					world.destroyBlock(new BlockPos((int) x, (int) y, (int) (z - 15)), false);
-				}
-			}
-			if ((world.getBlockState(new BlockPos((int) x, (int) (y + 15), (int) (z + 15))))
-					.getMaterial() == net.minecraft.world.level.material.Material.STONE
-					&& !((world.getBlockState(new BlockPos((int) x, (int) (y + 15), (int) (z + 15)))).getBlock() == Blocks.BEDROCK)) {
-				if (world instanceof Level) {
-					Block.dropResources(world.getBlockState(new BlockPos((int) x, (int) (y + 15), (int) (z + 15))), (Level) world,
-							new BlockPos((int) x, (int) y, (int) z));
-					world.destroyBlock(new BlockPos((int) x, (int) (y + 15), (int) (z + 15)), false);
-				}
-			}
-			if ((world.getBlockState(new BlockPos((int) x, (int) (y - 15), (int) (z + 15))))
-					.getMaterial() == net.minecraft.world.level.material.Material.STONE
-					&& !((world.getBlockState(new BlockPos((int) x, (int) (y - 15), (int) (z + 15)))).getBlock() == Blocks.BEDROCK)) {
-				if (world instanceof Level) {
-					Block.dropResources(world.getBlockState(new BlockPos((int) x, (int) (y - 15), (int) (z + 15))), (Level) world,
-							new BlockPos((int) x, (int) y, (int) z));
-					world.destroyBlock(new BlockPos((int) x, (int) (y - 15), (int) (z + 15)), false);
-				}
-			}
-			if ((world.getBlockState(new BlockPos((int) x, (int) (y - 15), (int) (z - 15))))
-					.getMaterial() == net.minecraft.world.level.material.Material.STONE
-					&& !((world.getBlockState(new BlockPos((int) x, (int) (y - 15), (int) (z - 15)))).getBlock() == Blocks.BEDROCK)) {
-				if (world instanceof Level) {
-					Block.dropResources(world.getBlockState(new BlockPos((int) x, (int) (y - 15), (int) (z - 15))), (Level) world,
-							new BlockPos((int) x, (int) y, (int) z));
-					world.destroyBlock(new BlockPos((int) x, (int) (y - 15), (int) (z - 15)), false);
-				}
-			}
-			if ((world.getBlockState(new BlockPos((int) x, (int) (y + 15), (int) (z - 15))))
-					.getMaterial() == net.minecraft.world.level.material.Material.STONE
-					&& !((world.getBlockState(new BlockPos((int) x, (int) (y + 15), (int) (z - 15)))).getBlock() == Blocks.BEDROCK)) {
-				if (world instanceof Level) {
-					Block.dropResources(world.getBlockState(new BlockPos((int) x, (int) (y + 15), (int) (z - 15))), (Level) world,
-							new BlockPos((int) x, (int) y, (int) z));
-					world.destroyBlock(new BlockPos((int) x, (int) (y + 15), (int) (z - 15)), false);
-				}
-			}
-			if ((world.getBlockState(new BlockPos((int) x, (int) (y + 15), (int) z)))
-					.getMaterial() == net.minecraft.world.level.material.Material.STONE
-					&& !((world.getBlockState(new BlockPos((int) x, (int) (y + 15), (int) z))).getBlock() == Blocks.BEDROCK)) {
-				if (world instanceof Level) {
-					Block.dropResources(world.getBlockState(new BlockPos((int) x, (int) (y + 15), (int) z)), (Level) world,
-							new BlockPos((int) x, (int) y, (int) z));
-					world.destroyBlock(new BlockPos((int) x, (int) (y + 15), (int) z), false);
-				}
-			}
-			if ((world.getBlockState(new BlockPos((int) x, (int) (y - 15), (int) z)))
-					.getMaterial() == net.minecraft.world.level.material.Material.STONE
-					&& !((world.getBlockState(new BlockPos((int) x, (int) (y - 15), (int) z))).getBlock() == Blocks.BEDROCK)) {
-				if (world instanceof Level) {
-					Block.dropResources(world.getBlockState(new BlockPos((int) x, (int) (y - 15), (int) z)), (Level) world,
-							new BlockPos((int) x, (int) y, (int) z));
-					world.destroyBlock(new BlockPos((int) x, (int) (y - 15), (int) z), false);
+					Block.dropResources(
+							world.getBlockState(
+									new BlockPos((int) (ModStiModVariables.Hammer_supremeX - 1), (int) (ModStiModVariables.Hammer_supremeY - 1),
+											(int) (ModStiModVariables.MapVariables.get(world).Hammer_supremeZ - 1))),
+							(Level) world, new BlockPos((int) ModStiModVariables.Hammer_supremeX, (int) ModStiModVariables.Hammer_supremeY,
+									(int) ModStiModVariables.MapVariables.get(world).Hammer_supremeZ));
+					world.destroyBlock(new BlockPos((int) (ModStiModVariables.Hammer_supremeX - 1), (int) (ModStiModVariables.Hammer_supremeY - 1),
+							(int) (ModStiModVariables.MapVariables.get(world).Hammer_supremeZ - 1)), false);
 				}
 			}
 		}

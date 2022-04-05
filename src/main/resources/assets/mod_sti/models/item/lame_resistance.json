@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "mod_sti:items/lame_nirishin"
+    "layer0": "mod_sti:items/lame_resistance"
   }
 }

@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "lame_nirishin",
+    "texture": "lame_resistance",
     "customModelName": "Normal",
     "name": "Lame de Résistance",
     "specialInfo": [

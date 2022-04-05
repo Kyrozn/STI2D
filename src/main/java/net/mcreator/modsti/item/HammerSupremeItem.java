@@ -51,7 +51,7 @@ public class HammerSupremeItem extends PickaxeItem {
 		int y = pos.getY();
 		int z = pos.getZ();
 
-		HammerSupremeQuandLeBlocEstDetruitAvecLoutilProcedure.execute(world, x, y, z, entity);
+		HammerSupremeQuandLeBlocEstDetruitAvecLoutilProcedure.execute(world, x, y, z);
 		return retval;
 	}
 
