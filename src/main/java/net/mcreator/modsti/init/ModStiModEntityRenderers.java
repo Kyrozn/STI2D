@@ -16,5 +16,6 @@ public class ModStiModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(ModStiModEntities.ARC_CHARBON_CHAUD, ThrownItemRenderer::new);
+		event.registerEntityRenderer(ModStiModEntities.ARC_CHARBON_CHAUD_TIERS_II, ThrownItemRenderer::new);
 	}
 }

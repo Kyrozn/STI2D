@@ -14,6 +14,7 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.modsti.entity.ArcCharbonChaudTiersIIEntity;
 import net.mcreator.modsti.entity.ArcCharbonChaudEntity;
 
 import java.util.List;
@@ -25,6 +26,10 @@ public class ModStiModEntities {
 	public static final EntityType<ArcCharbonChaudEntity> ARC_CHARBON_CHAUD = register("entitybulletarc_charbon_chaud",
 			EntityType.Builder.<ArcCharbonChaudEntity>of(ArcCharbonChaudEntity::new, MobCategory.MISC)
 					.setCustomClientFactory(ArcCharbonChaudEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final EntityType<ArcCharbonChaudTiersIIEntity> ARC_CHARBON_CHAUD_TIERS_II = register("entitybulletarc_charbon_chaud_tiers_ii",
+			EntityType.Builder.<ArcCharbonChaudTiersIIEntity>of(ArcCharbonChaudTiersIIEntity::new, MobCategory.MISC)
+					.setCustomClientFactory(ArcCharbonChaudTiersIIEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> EntityType<T> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
