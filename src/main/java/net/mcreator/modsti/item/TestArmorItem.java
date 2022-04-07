@@ -49,7 +49,7 @@ public abstract class TestArmorItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 0f;
+				return 2f;
 			}
 
 			@Override

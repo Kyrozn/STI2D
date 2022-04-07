@@ -461,6 +461,18 @@
       "locked_code": false,
       "registry_name": "arc_charbon_chaud_tiers_ii",
       "path": "~/ARC_C.C"
+    },
+    {
+      "name": "MultiShotACCTII",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi_shot_acctii",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/ARC_C.C"
     }
   ],
   "variable_elements": [

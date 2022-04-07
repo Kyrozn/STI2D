@@ -3,7 +3,7 @@
   "_type": "rangeditem",
   "definition": {
     "renderType": 0,
-    "texture": "arc_mod",
+    "texture": "arc_charbon_chaud_texture",
     "customModelName": "Normal",
     "name": "Arc Charbon Chaud Tiers II",
     "specialInfo": [],
