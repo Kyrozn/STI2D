@@ -13,7 +13,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.modsti.item.TestArmorItem;
 import net.mcreator.modsti.item.LingotCharbonChaudItem;
 import net.mcreator.modsti.item.LameSpeedItem;
 import net.mcreator.modsti.item.LameResistanceItem;
@@ -43,10 +42,6 @@ public class ModStiModItems {
 	public static final Item LAME_ORIGINEL = register(new LameOriginelItem());
 	public static final Item HAMMER_SUPREME = register(new HammerSupremeItem());
 	public static final Item HUH = register(new HuhItem());
-	public static final Item TEST_ARMOR_HELMET = register(new TestArmorItem.Helmet());
-	public static final Item TEST_ARMOR_CHESTPLATE = register(new TestArmorItem.Chestplate());
-	public static final Item TEST_ARMOR_LEGGINGS = register(new TestArmorItem.Leggings());
-	public static final Item TEST_ARMOR_BOOTS = register(new TestArmorItem.Boots());
 	public static final Item ARC_CHARBON_CHAUD_TIERS_II = register(new ArcCharbonChaudTiersIIItem());
 
 	private static Item register(Item item) {

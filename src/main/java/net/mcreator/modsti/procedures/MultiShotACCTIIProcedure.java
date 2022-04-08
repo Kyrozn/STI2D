@@ -27,4 +27,4 @@ if (!worldIn.isRemote) {
             arrowentity5.setItem(itemstack);
             arrowentity5.shoot(playerIn, playerIn.rotationPitch, playerIn.rotationYaw - 20, 0.0F, 1.75F, 1.0F);
             worldIn.addEntity(arrowentity5);
-        }
+}
