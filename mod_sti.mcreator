@@ -337,6 +337,10 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -395,12 +399,41 @@
       "path": "~/Hammer"
     },
     {
-      "name": "Hammersupremme1515",
+      "name": "Hammer1",
       "type": "procedure",
-      "sortid": 31,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "hammersupremme_1515",
+      "registry_name": "hammer_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hammer"
+    },
+    {
+      "name": "Hammer5par5",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer_5par_5",
       "metadata": {
         "dependencies": [
           {
@@ -428,14 +461,18 @@
       "path": "~/Hammer"
     },
     {
-      "name": "Hammer1",
+      "name": "Hammersupremme1515",
       "type": "procedure",
-      "sortid": 32,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "hammer_1",
+      "registry_name": "hammersupremme_1515",
       "metadata": {
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "x",
             "type": "number"
@@ -515,37 +552,25 @@
       "path": "~/Hammer"
     },
     {
-      "name": "Hammer5par5",
-      "type": "procedure",
-      "sortid": 35,
+      "name": "ArcCharbonChaudTiersII",
+      "type": "rangeditem",
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "hammer_5par_5",
+      "registry_name": "arc_charbon_chaud_tiers_ii",
+      "path": "~/ARC_C.C"
+    },
+    {
+      "name": "MultiShotACCTII",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi_shot_acctii",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "dependencies": []
       },
-      "path": "~/Hammer"
+      "path": "~/ARC_C.C"
     }
   ],
   "variable_elements": [
@@ -575,6 +600,7 @@
       "item.mod_sti.lame_regeneration": "Lame de Régénération",
       "item.mod_sti.lame_speed": "Lame de Speed",
       "item.mod_sti.lame_force": "Lame de Force",
+      "item.mod_sti.huh": "Huh",
       "item.mod_sti.arc_charbon_chaud": "Arc Charbon Chaud",
       "item.mod_sti.lame_originel": "Lame de Originel",
       "item.mod_sti.hammer_supreme": "Hammer Supreme",
@@ -589,19 +615,19 @@
     "name": "~",
     "children": [
       {
-        "name": "BLOCK_LINGOT8_C.C",
-        "children": []
-      },
-      {
         "name": "LAME_NISHIRIN",
         "children": []
       },
       {
-        "name": "ARC_C.C",
+        "name": "BLOCK_LINGOT8_C.C",
         "children": []
       },
       {
         "name": "Hammer",
+        "children": []
+      },
+      {
+        "name": "ARC_C.C",
         "children": []
       }
     ]

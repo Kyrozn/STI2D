@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "arc_charbon_chaud_texture",
+    "customModelName": "Normal",
+    "name": "Arc Charbon Chaud Tiers II",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "Items.ARROW"
+    },
+    "shootConstantly": false,
+    "usageCount": 2000,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": true,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 7.0,
+    "bulletPower": 5.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 2,
+    "bulletParticles": true,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "Items.ARROW"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "ProjectileToucheEntiteVivanteMetLeFeu"
+    },
+    "onBulletHitsPlayer": {
+      "name": "ProjectileToucheEntiteVivanteMetLeFeu"
+    },
+    "onBulletHitsEntity": {
+      "name": "ProjectileToucheEntiteVivanteMetLeFeu"
+    }
+  }
+}
