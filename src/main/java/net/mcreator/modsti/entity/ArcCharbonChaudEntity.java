@@ -22,6 +22,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
 import net.mcreator.modsti.procedures.ProjectileToucheEntiteVivanteMetLeFeuProcedure;
+import net.mcreator.modsti.procedures.ArcCharbonChaudLorsqueLeProjectileToucheUnBlocProcedure;
 import net.mcreator.modsti.init.ModStiModEntities;
 
 import java.util.Random;
@@ -98,7 +99,7 @@ public class ArcCharbonChaudEntity extends AbstractArrow implements ItemSupplier
 		Entity imediatesourceentity = this;
 		if (this.inGround) {
 
-			ProjectileToucheEntiteVivanteMetLeFeuProcedure.execute(entity);
+			ArcCharbonChaudLorsqueLeProjectileToucheUnBlocProcedure.execute(world, x, y, z);
 			this.discard();
 		}
 	}

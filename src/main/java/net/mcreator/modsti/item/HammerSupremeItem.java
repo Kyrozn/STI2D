@@ -12,13 +12,13 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.modsti.procedures.HammerSupremeQuandLeBlocEstDetruitAvecLoutilProcedure;
+import net.mcreator.modsti.procedures.Hammersupremme1515Procedure;
 
 public class HammerSupremeItem extends PickaxeItem {
 	public HammerSupremeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 100;
+				return 5000;
 			}
 
 			public float getSpeed() {
@@ -51,7 +51,7 @@ public class HammerSupremeItem extends PickaxeItem {
 		int y = pos.getY();
 		int z = pos.getZ();
 
-		HammerSupremeQuandLeBlocEstDetruitAvecLoutilProcedure.execute(world, x, y, z);
+		Hammersupremme1515Procedure.execute(world, x, y, z, entity);
 		return retval;
 	}
 

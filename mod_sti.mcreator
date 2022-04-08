@@ -91,18 +91,6 @@
       "path": "~/BLOCK_LINGOT8_C.C"
     },
     {
-      "name": "ArcCharbonChaudLorsqueLeProjectileToucheUneEntiteVivante",
-      "type": "procedure",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "arc_charbon_chaud_lorsque_le_projectile_touche_une_entite_vivante",
-      "metadata": {
-        "dependencies": []
-      },
-      "path": "~/ARC_C.C"
-    },
-    {
       "name": "ProjectileToucheEntiteVivanteMetLeFeu",
       "type": "procedure",
       "sortid": 9,
@@ -340,39 +328,6 @@
       "path": "~/ARC_C.C"
     },
     {
-      "name": "Enchntflecheexplosive",
-      "type": "procedure",
-      "sortid": 28,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "enchntflecheexplosive",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/ARC_C.C"
-    },
-    {
       "name": "ArcCharbonChaudLorsqueLeProjectileToucheUnBloc",
       "type": "procedure",
       "sortid": 29,
@@ -381,10 +336,6 @@
       "registry_name": "arc_charbon_chaud_lorsque_le_projectile_touche_un_bloc",
       "metadata": {
         "dependencies": [
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          },
           {
             "name": "x",
             "type": "number"
@@ -444,26 +395,157 @@
       "path": "~/Hammer"
     },
     {
-      "name": "Huh",
-      "type": "tool",
+      "name": "Hammersupremme1515",
+      "type": "procedure",
       "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "huh"
+      "registry_name": "hammersupremme_1515",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hammer"
     },
     {
-      "name": "TestArmor",
-      "type": "armor",
+      "name": "Hammer1",
+      "type": "procedure",
       "sortid": 32,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "test_armor",
+      "registry_name": "hammer_1",
       "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      }
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hammer"
+    },
+    {
+      "name": "Hammer15",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer_15",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hammer"
+    },
+    {
+      "name": "Hammer19",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer_19",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hammer"
+    },
+    {
+      "name": "Hammer5par5",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer_5par_5",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hammer"
     }
   ],
   "variable_elements": [
@@ -490,17 +572,12 @@
   "language_map": {
     "en_us": {
       "item.mod_sti.lame_resistance": "Lame de Résistance",
-      "item.mod_sti.test_armor_boots": "Test Boots",
       "item.mod_sti.lame_regeneration": "Lame de Régénération",
       "item.mod_sti.lame_speed": "Lame de Speed",
-      "item.mod_sti.test_armor_chestplate": "Test Chestplate",
       "item.mod_sti.lame_force": "Lame de Force",
-      "item.mod_sti.huh": "Huh",
       "item.mod_sti.arc_charbon_chaud": "Arc Charbon Chaud",
       "item.mod_sti.lame_originel": "Lame de Originel",
-      "item.mod_sti.test_armor_helmet": "Test Helmet",
       "item.mod_sti.hammer_supreme": "Hammer Supreme",
-      "item.mod_sti.test_armor_leggings": "Test Leggings",
       "item.mod_sti.lame": "Lame",
       "item.mod_sti.lingot_charbon_chaud": "Lingot de Charbon Chaud",
       "enchantment.mod_sti.enchant_arc_charbon_chaud": "Flèche explosive",
