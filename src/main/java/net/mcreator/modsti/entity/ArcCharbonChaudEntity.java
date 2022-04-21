@@ -7,7 +7,6 @@ import net.minecraftforge.fmllegacy.network.FMLPlayMessages;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
@@ -53,12 +52,12 @@ public class ArcCharbonChaudEntity extends AbstractArrow implements ItemSupplier
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public ItemStack getItem() {
-		return new ItemStack(Blocks.PINK_CANDLE);
+		return new ItemStack(Items.ARROW);
 	}
 
 	@Override
 	protected ItemStack getPickupItem() {
-		return new ItemStack(Items.ARROW);
+		return null;
 	}
 
 	@Override
@@ -126,7 +125,7 @@ public class ArcCharbonChaudEntity extends AbstractArrow implements ItemSupplier
 		double d3 = target.getZ() - entity.getZ();
 		entityarrow.shoot(d1, d0 - entityarrow.getY() + Math.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 3.9999999999999996f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setBaseDamage(3.5);
+		entityarrow.setBaseDamage(2);
 		entityarrow.setKnockback(2);
 		entityarrow.setCritArrow(true);
 		entityarrow.setSecondsOnFire(100);

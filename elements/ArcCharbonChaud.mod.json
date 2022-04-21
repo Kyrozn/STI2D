@@ -3,7 +3,7 @@
   "_type": "rangeditem",
   "definition": {
     "renderType": 0,
-    "texture": "arc_mod",
+    "texture": "mod_arc",
     "customModelName": "Normal",
     "name": "Arc Charbon Chaud",
     "specialInfo": [],
@@ -12,7 +12,7 @@
     },
     "stackSize": 1,
     "ammoItem": {
-      "value": "Items.ARROW"
+      "value": ""
     },
     "shootConstantly": false,
     "usageCount": 1000,
@@ -24,12 +24,12 @@
     "enableMeleeDamage": true,
     "damageVsEntity": 5.0,
     "bulletPower": 3.9999999999999996,
-    "bulletDamage": 3.5,
+    "bulletDamage": 2.0,
     "bulletKnockback": 2,
     "bulletParticles": true,
     "bulletIgnitesFire": true,
     "bulletItemTexture": {
-      "value": "Blocks.CANDLE#7"
+      "value": "Items.ARROW"
     },
     "bulletModel": "Default",
     "customBulletModelTexture": "",

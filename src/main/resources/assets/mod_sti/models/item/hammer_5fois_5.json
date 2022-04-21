@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "mod_sti:items/hammer_supreme"
+    "layer0": "mod_sti:items/hammer55"
   }
 }

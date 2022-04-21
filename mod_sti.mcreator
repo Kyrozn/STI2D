@@ -337,10 +337,6 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "itemstack",
-            "type": "itemstack"
-          },
-          {
             "name": "x",
             "type": "number"
           },
@@ -359,35 +355,6 @@
         ]
       },
       "path": "~/ARC_C.C"
-    },
-    {
-      "name": "HammerSupremeQuandLeBlocEstDetruitAvecLoutil",
-      "type": "procedure",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hammer_supreme_quand_le_bloc_est_detruit_avec_loutil",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Hammer"
     },
     {
       "name": "HammerSupreme",
@@ -425,7 +392,7 @@
           }
         ]
       },
-      "path": "~/Hammer"
+      "path": "~/Hammer/Hammer5par5"
     },
     {
       "name": "Hammer5par5",
@@ -458,7 +425,7 @@
           }
         ]
       },
-      "path": "~/Hammer"
+      "path": "~/Hammer/Hammer5par5"
     },
     {
       "name": "Hammersupremme1515",
@@ -491,7 +458,7 @@
           }
         ]
       },
-      "path": "~/Hammer"
+      "path": "~/Hammer/Hammer5par5"
     },
     {
       "name": "Hammer15",
@@ -520,7 +487,7 @@
           }
         ]
       },
-      "path": "~/Hammer"
+      "path": "~/Hammer/Hammer5par5"
     },
     {
       "name": "Hammer19",
@@ -549,7 +516,7 @@
           }
         ]
       },
-      "path": "~/Hammer"
+      "path": "~/Hammer/Hammer5par5"
     },
     {
       "name": "ArcCharbonChaudTiersII",
@@ -571,6 +538,143 @@
         "dependencies": []
       },
       "path": "~/ARC_C.C"
+    },
+    {
+      "name": "Hammer3fois3QuandLeBlocEstDetruitAvecLoutil",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer_3fois_3_quand_le_bloc_est_detruit_avec_loutil",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hammer"
+    },
+    {
+      "name": "Hammer3fois3",
+      "type": "tool",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer_3fois_3",
+      "path": "~/Hammer"
+    },
+    {
+      "name": "Hammerdiamand",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammerdiamand",
+      "path": "~/Hammer"
+    },
+    {
+      "name": "Hammer5fois5",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer_5fois_5",
+      "path": "~/Hammer"
+    },
+    {
+      "name": "Hammernetherite",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammernetherite",
+      "path": "~/Hammer"
+    },
+    {
+      "name": "Builderwand",
+      "type": "tool",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "builderwand"
+    },
+    {
+      "name": "Builderwand3par3",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "builderwand_3par_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Testbw",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testbw",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -597,16 +701,20 @@
   "language_map": {
     "en_us": {
       "item.mod_sti.lame_resistance": "Lame de Résistance",
+      "item.mod_sti.arc_charbon_chaud_tiers_ii": "Arc Charbon Chaud Tiers II",
       "item.mod_sti.lame_regeneration": "Lame de Régénération",
       "item.mod_sti.lame_speed": "Lame de Speed",
       "item.mod_sti.lame_force": "Lame de Force",
       "item.mod_sti.huh": "Huh",
       "item.mod_sti.arc_charbon_chaud": "Arc Charbon Chaud",
+      "item.mod_sti.hammer_3fois_3": "Hammer En Diamand",
       "item.mod_sti.lame_originel": "Lame de Originel",
       "item.mod_sti.hammer_supreme": "Hammer Supreme",
+      "item.mod_sti.builderwand": "Builder Wand",
       "item.mod_sti.lame": "Lame",
       "item.mod_sti.lingot_charbon_chaud": "Lingot de Charbon Chaud",
       "enchantment.mod_sti.enchant_arc_charbon_chaud": "Flèche explosive",
+      "item.mod_sti.hammer_5fois_5": "Hammer En Netherite",
       "item.mod_sti.lame_health_boost": "Lame de Boost de Vie",
       "block.mod_sti.charbonchaud": "Charbonchaud"
     }
@@ -624,7 +732,12 @@
       },
       {
         "name": "Hammer",
-        "children": []
+        "children": [
+          {
+            "name": "Hammer5par5",
+            "children": []
+          }
+        ]
       },
       {
         "name": "ARC_C.C",

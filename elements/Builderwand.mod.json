@@ -3,28 +3,28 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "hammer_supreme",
+    "texture": "builder_wand_diams",
     "customModelName": "Normal",
-    "name": "Hammer Supreme",
+    "name": "Builder Wand",
     "specialInfo": [],
     "creativeTab": {
       "value": "TOOLS"
     },
-    "toolType": "Pickaxe",
+    "toolType": "Special",
     "harvestLevel": 1,
     "efficiency": 4.0,
     "attackSpeed": 1.0,
-    "enchantability": 2,
-    "damageVsEntity": 4.0,
-    "usageCount": 5000,
+    "enchantability": 0,
+    "damageVsEntity": 1.0,
+    "usageCount": 100,
     "blocksAffected": [],
     "hasGlow": true,
     "repairItems": [],
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "onBlockDestroyedWithTool": {
-      "name": "Hammersupremme1515"
+    "onRightClickedOnBlock": {
+      "name": "Builderwand3par3"
     }
   }
 }

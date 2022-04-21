@@ -3,9 +3,9 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "hammer_supreme",
+    "texture": "hammer33",
     "customModelName": "Normal",
-    "name": "Hammer Supreme",
+    "name": "Hammer En Diamand",
     "specialInfo": [],
     "creativeTab": {
       "value": "TOOLS"
@@ -14,17 +14,21 @@
     "harvestLevel": 1,
     "efficiency": 4.0,
     "attackSpeed": 1.0,
-    "enchantability": 2,
+    "enchantability": 0,
     "damageVsEntity": 4.0,
-    "usageCount": 5000,
+    "usageCount": 1000,
     "blocksAffected": [],
     "hasGlow": true,
-    "repairItems": [],
+    "repairItems": [
+      {
+        "value": "Blocks.DIAMOND_BLOCK"
+      }
+    ],
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onBlockDestroyedWithTool": {
-      "name": "Hammersupremme1515"
+      "name": "Hammer3fois3QuandLeBlocEstDetruitAvecLoutil"
     }
   }
 }

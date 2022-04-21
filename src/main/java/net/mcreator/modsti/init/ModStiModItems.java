@@ -21,6 +21,9 @@ import net.mcreator.modsti.item.LameOriginelItem;
 import net.mcreator.modsti.item.LameHealthBoostItem;
 import net.mcreator.modsti.item.LameForceItem;
 import net.mcreator.modsti.item.HammerSupremeItem;
+import net.mcreator.modsti.item.Hammer5fois5Item;
+import net.mcreator.modsti.item.Hammer3fois3Item;
+import net.mcreator.modsti.item.BuilderwandItem;
 import net.mcreator.modsti.item.ArcCharbonChaudTiersIIItem;
 import net.mcreator.modsti.item.ArcCharbonChaudItem;
 
@@ -41,6 +44,9 @@ public class ModStiModItems {
 	public static final Item LAME_ORIGINEL = register(new LameOriginelItem());
 	public static final Item HAMMER_SUPREME = register(new HammerSupremeItem());
 	public static final Item ARC_CHARBON_CHAUD_TIERS_II = register(new ArcCharbonChaudTiersIIItem());
+	public static final Item HAMMER_3FOIS_3 = register(new Hammer3fois3Item());
+	public static final Item HAMMER_5FOIS_5 = register(new Hammer5fois5Item());
+	public static final Item BUILDERWAND = register(new BuilderwandItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
